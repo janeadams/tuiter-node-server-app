@@ -9,7 +9,7 @@ import mongoose from "mongoose";
 
 // mongoose.connect("mongodb://127.0.0.1:27017/tuiter-sp23-06");
 mongoose.connect(
-  "mongodb+srv://janelydiaadams:982j5mMmHQjhm9H@cluster0.ezfsu0c.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://janelydiaadams:982j5mMmHQjhm9H@cluster0.ezfsu0c.mongodb.net/tuiter?retryWrites=true&w=majority"
 );
 
 // const tuitsSchema = new mongoose.Schema(
